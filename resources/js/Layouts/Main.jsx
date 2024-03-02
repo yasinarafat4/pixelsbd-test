@@ -4,8 +4,8 @@ import Navbar from "@/Pages/Partial/Navbar";
 export default function Main({ children }) {
     return (
         <>
-            <Navbar />
-            <div>
+            <div className="max-w-[95rem] mx-auto">
+                <Navbar />
                 {children}
             </div>
             <Footer />
