@@ -8,7 +8,7 @@ import { HiMenu } from "react-icons/hi";
 export default function Navbar() {
     const [navToggle, setNavToggle] = useState(false);
     return (
-        <nav className="sticky top-0 z-50 lg:flex bg-white justify-around items-center py-3 px-2 shadow-lg">
+        <nav className="sticky w-full top-0 z-50 lg:flex bg-white justify-around items-center py-3 px-2 shadow-lg">
             <div className="grid grid-cols-2 items-center" >
                 <div className="flex justify-start items-center gap-6">
                     {/* Menu for small devices */}
@@ -18,15 +18,15 @@ export default function Navbar() {
                         }
                     </button>
                     <div className="flex items-center gap-1 text-slate-600">
-                        <img className="w-5 md:w-7" src={logo} alt="Logo" />
-                        <h1 className="text-sm md:text-2xl">Pixels</h1>
+                        <img className="w-5 md:w-7 lg:w-5 2xl:w-7" src={logo} alt="Logo" />
+                        <h1 className="text-sm md:text-2xl lg:text-xl 2xl:text-2xl">Pixels</h1>
                     </div>
                     {/* NavItems */}
                     <div className={`absolute ${navToggle ? "left-0" : "left-[-120%]"
-                        } top-[3rem] md:top-[4rem] flex w-full flex-col  gap-6 bg-white px-4 py-3 space-y-5 transition-all duration-300 lg:static lg:w-[unset] lg:flex-row lg:bg-transparent lg:pb-0 lg:pt-0 lg:space-y-0`}>
+                        } top-[3rem] md:top-[4rem] flex w-full flex-col gap-6 lg:gap-1 xl:gap-3 2xl:gap-6 bg-white px-4 py-3 space-y-5 transition-all duration-300 lg:static lg:flex-row lg:bg-transparent lg:pb-0 lg:pt-0 lg:space-y-0`}>
                         {/* Item-1 */}
                         <div className="group relative">
-                            <div className="flex items-center text-sm gap-1 text-slate-600 cursor-pointer"><span>Photo Editing Tools</span><RiArrowDownSLine />
+                            <div className="flex items-center text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-600 cursor-pointer"><span>Photo Editing Tools</span><RiArrowDownSLine />
                                 <div className="grid grid-cols-2 p-4 absolute z-50 top-5 w-[50rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
                                     <div className="space-y-4">
                                         <h2 className="text-xl ps-4">Online Photo Editor</h2>
@@ -101,7 +101,7 @@ export default function Navbar() {
 
                         {/* Item-2 */}
                         <div className="group relative">
-                            <div className="flex items-center text-sm gap-1 text-slate-600 cursor-pointer"><span>Create</span><RiArrowDownSLine />
+                            <div className="flex items-center text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-600 cursor-pointer"><span>Create</span><RiArrowDownSLine />
                                 <div className="grid grid-cols-3 p-4 absolute z-50 top-5 w-[35rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
                                     <div className="space-y-4">
                                         <h2 className="text-xl">Marketing</h2>
@@ -168,7 +168,7 @@ export default function Navbar() {
                         </div>
                         {/* Item-3 */}
                         <div className="group relative">
-                            <div className="flex items-center text-sm gap-1 text-slate-600 cursor-pointer"><span>AI Tools</span><RiArrowDownSLine />
+                            <div className="flex items-center text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-600 cursor-pointer"><span>AI Tools</span><RiArrowDownSLine />
                                 <div className="absolute z-50 top-5 w-[10rem] space-y-4 bg-white rounded-md shadow-lg text-slate-600 p-4 invisible group-hover:visible">
                                     <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
                                         Items
@@ -205,7 +205,7 @@ export default function Navbar() {
                         </div>
                         {/* Item-4 */}
                         <div className="group relative">
-                            <div className="flex items-center text-sm gap-1 text-slate-600 cursor-pointer"><span>Templates</span><RiArrowDownSLine />
+                            <div className="flex items-center text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-600 cursor-pointer"><span>Templates</span><RiArrowDownSLine />
                                 <div className="grid grid-cols-3 p-4 absolute z-50 top-5 w-[35rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
                                     <div className="space-y-4">
                                         <h2 className="text-xl">Marketing</h2>
@@ -272,7 +272,7 @@ export default function Navbar() {
                         </div>
                         {/* Item-5 */}
                         <div className="group relative">
-                            <div className="flex items-center text-sm gap-1 text-slate-600 cursor-pointer"><span>AI Tools</span><RiArrowDownSLine />
+                            <div className="flex items-center text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-600 cursor-pointer"><span>AI Tools</span><RiArrowDownSLine />
                                 <div className="absolute z-50 top-5 w-[10rem] space-y-4 bg-white rounded-md shadow-lg text-slate-600 p-4 invisible group-hover:visible">
                                     <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
                                         Items
