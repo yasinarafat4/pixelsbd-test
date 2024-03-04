@@ -1,4 +1,5 @@
 import { RiArrowDownSLine } from "react-icons/ri";
+import { MdKeyboardArrowRight } from "react-icons/md";
 import logo from "../../../images/logo-1.png"
 import Dropdown from "@/Components/Dropdown";
 import { RxCross2 } from "react-icons/rx";
@@ -26,8 +27,18 @@ export default function Navbar() {
                         } top-[3rem] md:top-[4rem] flex w-full flex-col gap-6 lg:gap-1 xl:gap-3 2xl:gap-6 bg-white px-4 py-3 space-y-5 transition-all duration-300 lg:static lg:flex-row lg:bg-transparent lg:pb-0 lg:pt-0 lg:space-y-0`}>
                         {/* Item-1 */}
                         <div className="group relative">
-                            <div className="flex items-center text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-600 cursor-pointer"><span>Photo Editing Tools</span><RiArrowDownSLine />
-                                <div className="grid grid-cols-2 p-4 absolute z-50 top-5 w-[50rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
+                            <div className="flex items-center justify-between text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-700 cursor-pointer"><span>Photo Editing Tools</span><RiArrowDownSLine className="hidden lg:block" /><MdKeyboardArrowRight className="lg:hidden" />
+                                {/* Items for small devices */}
+                                <div className="hidden group-hover:block bg-white rounded-md shadow-lg space-y-4 p-4 absolute z-50 top-5">
+                                    <div>
+                                        <h2 className="flex items-center justify-between text-xs">Online Photo Editor<MdKeyboardArrowRight /></h2>
+                                    </div>
+                                    <div>
+                                        <h2 className="flex items-center justify-between text-xs">Other Platforms<MdKeyboardArrowRight /></h2>
+                                    </div>
+                                </div>
+                                {/* Items for large devices */}
+                                <div className="hidden lg:grid grid-cols-2 p-4 absolute z-50 top-5 w-[50rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
                                     <div className="space-y-4">
                                         <h2 className="text-xl ps-4">Online Photo Editor</h2>
                                         <div className="grid grid-cols-4 gap-4 pr-4">
@@ -101,8 +112,8 @@ export default function Navbar() {
 
                         {/* Item-2 */}
                         <div className="group relative">
-                            <div className="flex items-center text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-600 cursor-pointer"><span>Create</span><RiArrowDownSLine />
-                                <div className="grid grid-cols-3 p-4 absolute z-50 top-5 w-[35rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
+                            <div className="flex items-center justify-between text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-700 cursor-pointer"><span>Create</span><RiArrowDownSLine className="hidden lg:block" /><MdKeyboardArrowRight className="lg:hidden" />
+                                <div className="hidden lg:grid grid-cols-3 p-4 absolute z-50 top-5 w-[35rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
                                     <div className="space-y-4">
                                         <h2 className="text-xl">Marketing</h2>
                                         <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
@@ -168,7 +179,7 @@ export default function Navbar() {
                         </div>
                         {/* Item-3 */}
                         <div className="group relative">
-                            <div className="flex items-center text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-600 cursor-pointer"><span>AI Tools</span><RiArrowDownSLine />
+                            <div className="flex items-center justify-between text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-700 cursor-pointer"><span>AI Tools</span><RiArrowDownSLine className="hidden lg:block" /><MdKeyboardArrowRight className="lg:hidden" />
                                 <div className="absolute z-50 top-5 w-[10rem] space-y-4 bg-white rounded-md shadow-lg text-slate-600 p-4 invisible group-hover:visible">
                                     <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
                                         Items
@@ -205,8 +216,8 @@ export default function Navbar() {
                         </div>
                         {/* Item-4 */}
                         <div className="group relative">
-                            <div className="flex items-center text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-600 cursor-pointer"><span>Templates</span><RiArrowDownSLine />
-                                <div className="grid grid-cols-3 p-4 absolute z-50 top-5 w-[35rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
+                            <div className="flex items-center justify-between text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-700 cursor-pointer"><span>Templates</span><RiArrowDownSLine className="hidden lg:block" /><MdKeyboardArrowRight className="lg:hidden" />
+                                <div className="hidden lg:grid grid-cols-3 p-4 absolute z-50 top-5 w-[35rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
                                     <div className="space-y-4">
                                         <h2 className="text-xl">Marketing</h2>
                                         <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
@@ -272,7 +283,7 @@ export default function Navbar() {
                         </div>
                         {/* Item-5 */}
                         <div className="group relative">
-                            <div className="flex items-center text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-600 cursor-pointer"><span>AI Tools</span><RiArrowDownSLine />
+                            <div className="flex items-center justify-between text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-700 cursor-pointer"><span>AI Tools</span><RiArrowDownSLine className="hidden lg:block" /><MdKeyboardArrowRight className="lg:hidden" />
                                 <div className="absolute z-50 top-5 w-[10rem] space-y-4 bg-white rounded-md shadow-lg text-slate-600 p-4 invisible group-hover:visible">
                                     <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
                                         Items
@@ -293,7 +304,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="flex justify-end items-center gap-3">
-                <a className="font-semibold text-xs px-2 py-1 md:px-4 md:py-2 bg-blue-500 rounded-sm text-white md:hidden" href={route('register')}>Open in App</a>
+                    <a className="font-semibold text-xs px-2 py-1 md:px-4 md:py-2 bg-blue-500 rounded-sm text-white md:hidden" href={route('register')}>Open in App</a>
                     <a className="font-semibold text-xs" href={route('login')}>
                         Sign up
                     </a>
