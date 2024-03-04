@@ -29,12 +29,67 @@ export default function Navbar() {
                         <div className="group relative">
                             <div className="flex items-center justify-between text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-700 cursor-pointer"><span>Photo Editing Tools</span><RiArrowDownSLine className="hidden lg:block" /><MdKeyboardArrowRight className="lg:hidden" />
                                 {/* Items for small devices */}
-                                <div className="hidden group-hover:block bg-white rounded-md shadow-lg space-y-4 p-4 absolute z-50 top-5">
-                                    <div>
-                                        <h2 className="flex items-center justify-between text-xs">Online Photo Editor<MdKeyboardArrowRight /></h2>
+                                <div className="grid grid-cols-2 gap-4 invisible group-hover:visible bg-white rounded-md shadow-lg p-4 absolute z-50 top-5 lg:hidden">
+                                    <div className="flex flex-col items-start">
+                                        <h2 className="text-xs font-semibold">Online Photo Editor</h2>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p> <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p> <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p> <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
                                     </div>
-                                    <div>
-                                        <h2 className="flex items-center justify-between text-xs">Other Platforms<MdKeyboardArrowRight /></h2>
+                                    <div className="flex flex-col items-start">
+                                        <h2 className="text-xs font-semibold">Other Platforms</h2>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+
                                     </div>
                                 </div>
                                 {/* Items for large devices */}
@@ -113,6 +168,72 @@ export default function Navbar() {
                         {/* Item-2 */}
                         <div className="group relative">
                             <div className="flex items-center justify-between text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-700 cursor-pointer"><span>Create</span><RiArrowDownSLine className="hidden lg:block" /><MdKeyboardArrowRight className="lg:hidden" />
+                                {/* Items for small devices */}
+                                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 invisible group-hover:visible bg-white rounded-md shadow-lg p-4 absolute z-50 top-5">
+                                    <div className="flex flex-col items-start">
+                                        <h2 className="text-xs font-semibold">Marketing</h2>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p> <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                    </div>
+                                    <div className="flex flex-col items-start">
+                                        <h2 className="text-xs font-semibold">Social Media</h2>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+
+                                    </div>
+                                    <div className="flex flex-col items-start">
+                                        <h2 className="text-xs font-semibold">Events</h2>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+
+                                    </div>
+                                </div>
+                                {/* Items for large devices */}
+
                                 <div className="hidden lg:grid grid-cols-3 p-4 absolute z-50 top-5 w-[35rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
                                     <div className="space-y-4">
                                         <h2 className="text-xl">Marketing</h2>
@@ -181,34 +302,34 @@ export default function Navbar() {
                         <div className="group relative">
                             <div className="flex items-center justify-between text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-700 cursor-pointer"><span>AI Tools</span><RiArrowDownSLine className="hidden lg:block" /><MdKeyboardArrowRight className="lg:hidden" />
                                 <div className="absolute z-50 top-5 w-[10rem] space-y-4 bg-white rounded-md shadow-lg text-slate-600 p-4 invisible group-hover:visible">
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
                                 </div>
@@ -217,6 +338,71 @@ export default function Navbar() {
                         {/* Item-4 */}
                         <div className="group relative">
                             <div className="flex items-center justify-between text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-700 cursor-pointer"><span>Templates</span><RiArrowDownSLine className="hidden lg:block" /><MdKeyboardArrowRight className="lg:hidden" />
+                                {/* Items for small devices */}
+                                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 invisible group-hover:visible bg-white rounded-md shadow-lg p-4 absolute z-50 top-5">
+                                    <div className="flex flex-col items-start">
+                                        <h2 className="text-xs font-semibold">Marketing</h2>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p> <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                    </div>
+                                    <div className="flex flex-col items-start">
+                                        <h2 className="text-xs font-semibold">Social Media</h2>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+
+                                    </div>
+                                    <div className="flex flex-col items-start">
+                                        <h2 className="text-xs font-semibold">Themes</h2>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+                                        <p className="hover:bg-slate-200 hover:text-slate-600 text-xs py-1 rounded-sm">
+                                            Items
+                                        </p>
+
+                                    </div>
+                                </div>
+                                {/* Items for large devices */}
                                 <div className="hidden lg:grid grid-cols-3 p-4 absolute z-50 top-5 w-[35rem] bg-white rounded-md shadow-lg text-slate-600 invisible group-hover:visible">
                                     <div className="space-y-4">
                                         <h2 className="text-xl">Marketing</h2>
@@ -284,17 +470,18 @@ export default function Navbar() {
                         {/* Item-5 */}
                         <div className="group relative">
                             <div className="flex items-center justify-between text-sm lg:text-xs 2xl:text-sm gap-1 lg:gap-0 2xl:gap-1 text-slate-700 cursor-pointer"><span>AI Tools</span><RiArrowDownSLine className="hidden lg:block" /><MdKeyboardArrowRight className="lg:hidden" />
+
                                 <div className="absolute z-50 top-5 w-[10rem] space-y-4 bg-white rounded-md shadow-lg text-slate-600 p-4 invisible group-hover:visible">
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
-                                    <p className="block hover:bg-slate-200 hover:text-slate-600 px-4 py-1 rounded-sm">
+                                    <p className="block hover:bg-slate-200 hover:text-slate-600 text-xs lg:text-sm lg:px-4 py-1 rounded-sm">
                                         Items
                                     </p>
                                 </div>
